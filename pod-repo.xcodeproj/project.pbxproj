@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F232B2FC1B5FCCD300FABF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B2FB1B5FCCD300FABF81 /* main.m */; };
+		F232B2FF1B5FCCD300FABF81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B2FE1B5FCCD300FABF81 /* AppDelegate.m */; };
+		F232B3021B5FCCD300FABF81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3011B5FCCD300FABF81 /* ViewController.m */; };
+		F232B3051B5FCCD300FABF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F232B3031B5FCCD300FABF81 /* Main.storyboard */; };
+		F232B3071B5FCCD300FABF81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F232B3061B5FCCD300FABF81 /* Images.xcassets */; };
+		F232B30A1B5FCCD300FABF81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */; };
+		F232B3161B5FCCD300FABF81 /* pod_repoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3151B5FCCD300FABF81 /* pod_repoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F232B3101B5FCCD300FABF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F232B2EE1B5FCCD200FABF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F232B2F51B5FCCD300FABF81;
+			remoteInfo = "pod-repo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F232B2F61B5FCCD300FABF81 /* pod-repo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pod-repo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F232B2FA1B5FCCD300FABF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F232B2FB1B5FCCD300FABF81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F232B2FD1B5FCCD300FABF81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F232B2FE1B5FCCD300FABF81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F232B3001B5FCCD300FABF81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F232B3011B5FCCD300FABF81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F232B3041B5FCCD300FABF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F232B3061B5FCCD300FABF81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F232B3091B5FCCD300FABF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F232B30F1B5FCCD300FABF81 /* pod-repoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pod-repoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F232B3141B5FCCD300FABF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F232B3151B5FCCD300FABF81 /* pod_repoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pod_repoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F232B2F31B5FCCD300FABF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F232B30C1B5FCCD300FABF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F232B2ED1B5FCCD200FABF81 = {
+			isa = PBXGroup;
+			children = (
+				F232B2F81B5FCCD300FABF81 /* pod-repo */,
+				F232B3121B5FCCD300FABF81 /* pod-repoTests */,
+				F232B2F71B5FCCD300FABF81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F232B2F71B5FCCD300FABF81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F232B2F61B5FCCD300FABF81 /* pod-repo.app */,
+				F232B30F1B5FCCD300FABF81 /* pod-repoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F232B2F81B5FCCD300FABF81 /* pod-repo */ = {
+			isa = PBXGroup;
+			children = (
+				F232B2FD1B5FCCD300FABF81 /* AppDelegate.h */,
+				F232B2FE1B5FCCD300FABF81 /* AppDelegate.m */,
+				F232B3001B5FCCD300FABF81 /* ViewController.h */,
+				F232B3011B5FCCD300FABF81 /* ViewController.m */,
+				F232B3031B5FCCD300FABF81 /* Main.storyboard */,
+				F232B3061B5FCCD300FABF81 /* Images.xcassets */,
+				F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */,
+				F232B2F91B5FCCD300FABF81 /* Supporting Files */,
+			);
+			path = "pod-repo";
+			sourceTree = "<group>";
+		};
+		F232B2F91B5FCCD300FABF81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F232B2FA1B5FCCD300FABF81 /* Info.plist */,
+				F232B2FB1B5FCCD300FABF81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F232B3121B5FCCD300FABF81 /* pod-repoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F232B3151B5FCCD300FABF81 /* pod_repoTests.m */,
+				F232B3131B5FCCD300FABF81 /* Supporting Files */,
+			);
+			path = "pod-repoTests";
+			sourceTree = "<group>";
+		};
+		F232B3131B5FCCD300FABF81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F232B3141B5FCCD300FABF81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F232B2F51B5FCCD300FABF81 /* pod-repo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F232B3191B5FCCD300FABF81 /* Build configuration list for PBXNativeTarget "pod-repo" */;
+			buildPhases = (
+				F232B2F21B5FCCD300FABF81 /* Sources */,
+				F232B2F31B5FCCD300FABF81 /* Frameworks */,
+				F232B2F41B5FCCD300FABF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pod-repo";
+			productName = "pod-repo";
+			productReference = F232B2F61B5FCCD300FABF81 /* pod-repo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F232B30E1B5FCCD300FABF81 /* pod-repoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F232B31C1B5FCCD300FABF81 /* Build configuration list for PBXNativeTarget "pod-repoTests" */;
+			buildPhases = (
+				F232B30B1B5FCCD300FABF81 /* Sources */,
+				F232B30C1B5FCCD300FABF81 /* Frameworks */,
+				F232B30D1B5FCCD300FABF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F232B3111B5FCCD300FABF81 /* PBXTargetDependency */,
+			);
+			name = "pod-repoTests";
+			productName = "pod-repoTests";
+			productReference = F232B30F1B5FCCD300FABF81 /* pod-repoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F232B2EE1B5FCCD200FABF81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "subham khandelwal";
+				TargetAttributes = {
+					F232B2F51B5FCCD300FABF81 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F232B30E1B5FCCD300FABF81 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F232B2F51B5FCCD300FABF81;
+					};
+				};
+			};
+			buildConfigurationList = F232B2F11B5FCCD200FABF81 /* Build configuration list for PBXProject "pod-repo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F232B2ED1B5FCCD200FABF81;
+			productRefGroup = F232B2F71B5FCCD300FABF81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F232B2F51B5FCCD300FABF81 /* pod-repo */,
+				F232B30E1B5FCCD300FABF81 /* pod-repoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F232B2F41B5FCCD300FABF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232B3051B5FCCD300FABF81 /* Main.storyboard in Resources */,
+				F232B30A1B5FCCD300FABF81 /* LaunchScreen.xib in Resources */,
+				F232B3071B5FCCD300FABF81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F232B30D1B5FCCD300FABF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F232B2F21B5FCCD300FABF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232B3021B5FCCD300FABF81 /* ViewController.m in Sources */,
+				F232B2FF1B5FCCD300FABF81 /* AppDelegate.m in Sources */,
+				F232B2FC1B5FCCD300FABF81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F232B30B1B5FCCD300FABF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232B3161B5FCCD300FABF81 /* pod_repoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F232B3111B5FCCD300FABF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F232B2F51B5FCCD300FABF81 /* pod-repo */;
+			targetProxy = F232B3101B5FCCD300FABF81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F232B3031B5FCCD300FABF81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F232B3041B5FCCD300FABF81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F232B3091B5FCCD300FABF81 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F232B3171B5FCCD300FABF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F232B3181B5FCCD300FABF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F232B31A1B5FCCD300FABF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pod-repo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F232B31B1B5FCCD300FABF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pod-repo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F232B31D1B5FCCD300FABF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pod-repoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pod-repo.app/pod-repo";
+			};
+			name = Debug;
+		};
+		F232B31E1B5FCCD300FABF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pod-repoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pod-repo.app/pod-repo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F232B2F11B5FCCD200FABF81 /* Build configuration list for PBXProject "pod-repo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F232B3171B5FCCD300FABF81 /* Debug */,
+				F232B3181B5FCCD300FABF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F232B3191B5FCCD300FABF81 /* Build configuration list for PBXNativeTarget "pod-repo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F232B31A1B5FCCD300FABF81 /* Debug */,
+				F232B31B1B5FCCD300FABF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F232B31C1B5FCCD300FABF81 /* Build configuration list for PBXNativeTarget "pod-repoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F232B31D1B5FCCD300FABF81 /* Debug */,
+				F232B31E1B5FCCD300FABF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F232B2EE1B5FCCD200FABF81 /* Project object */;
+}
