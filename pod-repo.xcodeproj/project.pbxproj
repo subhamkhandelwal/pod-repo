@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F232B2FC1B5FCCD300FABF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B2FB1B5FCCD300FABF81 /* main.m */; };
-		F232B2FF1B5FCCD300FABF81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B2FE1B5FCCD300FABF81 /* AppDelegate.m */; };
-		F232B3021B5FCCD300FABF81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3011B5FCCD300FABF81 /* ViewController.m */; };
 		F232B3051B5FCCD300FABF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F232B3031B5FCCD300FABF81 /* Main.storyboard */; };
 		F232B3071B5FCCD300FABF81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F232B3061B5FCCD300FABF81 /* Images.xcassets */; };
 		F232B30A1B5FCCD300FABF81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */; };
@@ -32,10 +30,6 @@
 		F232B2F61B5FCCD300FABF81 /* pod-repo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pod-repo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F232B2FA1B5FCCD300FABF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F232B2FB1B5FCCD300FABF81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F232B2FD1B5FCCD300FABF81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F232B2FE1B5FCCD300FABF81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F232B3001B5FCCD300FABF81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F232B3011B5FCCD300FABF81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F232B3041B5FCCD300FABF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F232B3061B5FCCD300FABF81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F232B3091B5FCCD300FABF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -87,10 +81,6 @@
 		F232B2F81B5FCCD300FABF81 /* pod-repo */ = {
 			isa = PBXGroup;
 			children = (
-				F232B2FD1B5FCCD300FABF81 /* AppDelegate.h */,
-				F232B2FE1B5FCCD300FABF81 /* AppDelegate.m */,
-				F232B3001B5FCCD300FABF81 /* ViewController.h */,
-				F232B3011B5FCCD300FABF81 /* ViewController.m */,
 				F232B3031B5FCCD300FABF81 /* Main.storyboard */,
 				F232B3061B5FCCD300FABF81 /* Images.xcassets */,
 				F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */,
@@ -229,8 +219,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F232B3251B5FD7BE00FABF81 /* SKTestClass.m in Sources */,
-				F232B3021B5FCCD300FABF81 /* ViewController.m in Sources */,
-				F232B2FF1B5FCCD300FABF81 /* AppDelegate.m in Sources */,
 				F232B2FC1B5FCCD300FABF81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
