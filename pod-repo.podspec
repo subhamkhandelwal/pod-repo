@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'pod-repo'
-s.version           = '0.0.1'
+s.version           = '0.0.2'
 s.summary           = 'Description of your project'
 s.homepage          = 'https://github.com/subhamkhandelwal/pod-repo'
 s.license           = {

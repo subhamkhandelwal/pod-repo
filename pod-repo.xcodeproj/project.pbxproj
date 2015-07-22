@@ -15,6 +15,7 @@
 		F232B30A1B5FCCD300FABF81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */; };
 		F232B3161B5FCCD300FABF81 /* pod_repoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3151B5FCCD300FABF81 /* pod_repoTests.m */; };
 		F232B3221B5FCD7A00FABF81 /* pod-repo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F232B3211B5FCD7A00FABF81 /* pod-repo.podspec */; };
+		F232B3251B5FD7BE00FABF81 /* SKTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3241B5FD7BE00FABF81 /* SKTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		F232B3141B5FCCD300FABF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F232B3151B5FCCD300FABF81 /* pod_repoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pod_repoTests.m; sourceTree = "<group>"; };
 		F232B3211B5FCD7A00FABF81 /* pod-repo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pod-repo.podspec"; sourceTree = "<group>"; };
+		F232B3231B5FD7BE00FABF81 /* SKTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTestClass.h; sourceTree = "<group>"; };
+		F232B3241B5FD7BE00FABF81 /* SKTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				F232B3061B5FCCD300FABF81 /* Images.xcassets */,
 				F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */,
 				F232B2F91B5FCCD300FABF81 /* Supporting Files */,
+				F232B3231B5FD7BE00FABF81 /* SKTestClass.h */,
+				F232B3241B5FD7BE00FABF81 /* SKTestClass.m */,
 			);
 			path = "pod-repo";
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F232B3251B5FD7BE00FABF81 /* SKTestClass.m in Sources */,
 				F232B3021B5FCCD300FABF81 /* ViewController.m in Sources */,
 				F232B2FF1B5FCCD300FABF81 /* AppDelegate.m in Sources */,
 				F232B2FC1B5FCCD300FABF81 /* main.m in Sources */,
