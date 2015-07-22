@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F232B2FC1B5FCCD300FABF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B2FB1B5FCCD300FABF81 /* main.m */; };
-		F232B3051B5FCCD300FABF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F232B3031B5FCCD300FABF81 /* Main.storyboard */; };
 		F232B3071B5FCCD300FABF81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F232B3061B5FCCD300FABF81 /* Images.xcassets */; };
 		F232B30A1B5FCCD300FABF81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */; };
 		F232B3161B5FCCD300FABF81 /* pod_repoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3151B5FCCD300FABF81 /* pod_repoTests.m */; };
 		F232B3221B5FCD7A00FABF81 /* pod-repo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F232B3211B5FCD7A00FABF81 /* pod-repo.podspec */; };
 		F232B3251B5FD7BE00FABF81 /* SKTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3241B5FD7BE00FABF81 /* SKTestClass.m */; };
+		F232B3291B5FE23600FABF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F232B3281B5FE23600FABF81 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +28,6 @@
 /* Begin PBXFileReference section */
 		F232B2F61B5FCCD300FABF81 /* pod-repo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pod-repo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F232B2FA1B5FCCD300FABF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F232B2FB1B5FCCD300FABF81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F232B3041B5FCCD300FABF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F232B3061B5FCCD300FABF81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F232B3091B5FCCD300FABF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F232B30F1B5FCCD300FABF81 /* pod-repoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pod-repoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +36,7 @@
 		F232B3211B5FCD7A00FABF81 /* pod-repo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pod-repo.podspec"; sourceTree = "<group>"; };
 		F232B3231B5FD7BE00FABF81 /* SKTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTestClass.h; sourceTree = "<group>"; };
 		F232B3241B5FD7BE00FABF81 /* SKTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTestClass.m; sourceTree = "<group>"; };
+		F232B3281B5FE23600FABF81 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		F232B2F81B5FCCD300FABF81 /* pod-repo */ = {
 			isa = PBXGroup;
 			children = (
-				F232B3031B5FCCD300FABF81 /* Main.storyboard */,
 				F232B3061B5FCCD300FABF81 /* Images.xcassets */,
 				F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */,
 				F232B2F91B5FCCD300FABF81 /* Supporting Files */,
@@ -95,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F232B2FA1B5FCCD300FABF81 /* Info.plist */,
-				F232B2FB1B5FCCD300FABF81 /* main.m */,
+				F232B3281B5FE23600FABF81 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F232B3051B5FCCD300FABF81 /* Main.storyboard in Resources */,
 				F232B30A1B5FCCD300FABF81 /* LaunchScreen.xib in Resources */,
 				F232B3221B5FCD7A00FABF81 /* pod-repo.podspec in Resources */,
 				F232B3071B5FCCD300FABF81 /* Images.xcassets in Resources */,
@@ -218,8 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F232B3291B5FE23600FABF81 /* main.m in Sources */,
 				F232B3251B5FD7BE00FABF81 /* SKTestClass.m in Sources */,
-				F232B2FC1B5FCCD300FABF81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +238,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F232B3031B5FCCD300FABF81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F232B3041B5FCCD300FABF81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F232B3081B5FCCD300FABF81 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
